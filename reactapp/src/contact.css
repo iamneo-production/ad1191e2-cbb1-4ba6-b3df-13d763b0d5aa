@@ -1,0 +1,69 @@
+/* contact.css */
+
+/* Styling for the background image */
+.imgi {
+    /* background-image: url('path/to/your/background-image.jpg'); */
+    /* Add appropriate background properties (e.g., size, position, etc.) */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  /* Styling for the Navbar */
+  /* Assuming "navbar" class is used for the navigation bar component */
+  .navbar {
+    /* Add your styles here */
+  }
+  
+  /* Styling for the contact form container */
+  .contact-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the contact form heading */
+  .contact-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form labels */
+  .form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for input fields and textarea */
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the submit button */
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Styling for the submission status message */
+  p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff; /* You can change the color to match your design */
+  }
+  
